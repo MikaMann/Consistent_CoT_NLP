@@ -1,0 +1,35 @@
+{
+  "created_at": "20260524T160519Z",
+  "subject": "high_school_biology",
+  "profile": "requested",
+  "seed": 13,
+  "num_questions": 10,
+  "max_new_tokens": 768,
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "device": "cuda",
+  "python": "3.13.5 (main, Jan 21 2026, 20:52:29) [GCC 14.3.0]",
+  "torch": "2.12.0+cu130",
+  "memory_before": {
+    "available_gb": 1283.37,
+    "used_gb": 227.8,
+    "percent": 15.1
+  },
+  "model_specs": [
+    {
+      "target_model": "Qwen/Qwen3.6-27B",
+      "run_model": "Qwen/Qwen3.6-27B",
+      "fallback_used": false,
+      "fallback_reason": ""
+    }
+  ],
+  "model_access": {
+    "Qwen/Qwen3.6-27B": "ok:27,781,427,952_params"
+  },
+  "prompt_source": "MR-Ben paper Figure 7 (arXiv:2406.13975v3).",
+  "memory_after": {
+    "available_gb": 1279.57,
+    "used_gb": 231.6,
+    "percent": 15.3
+  }
+}
