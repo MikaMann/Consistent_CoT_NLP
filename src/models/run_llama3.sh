@@ -55,8 +55,8 @@ done
 python scripts/generate_traces.py \
     --model_name "$MODEL_NAME" \
     --base_url "http://localhost:${PORT}/v1" \
-    --domains 11 12 13 \
-    --n_per_domain 10 \
+    --subject college_medicine \
+    --n_samples 10 \
     --output_file "$OUTPUT" \
     --max_tokens 1024 \
     --seed 42
